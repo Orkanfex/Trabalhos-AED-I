@@ -61,6 +61,10 @@ int main(int argc, char const *argv[])
             total_sac += valor;
             total_exist -= valor;
 
+            //contagem de cedulas
+
+
+            //volta ao menu
             opc = -1;
 
             break;
@@ -104,9 +108,6 @@ int main(int argc, char const *argv[])
 
             } while (opc_ger < 1 || opc_ger > 5);
         
-            break;
-        case 3:
-            
             break;
 
         default:
